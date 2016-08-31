@@ -16,8 +16,9 @@
         <li class="active"><a href="#">HOME</span></a></li>
         <li><a href="#"><strong class="text-primary">STYLE DEMO</strong></a></li>
         <li><a href="#"><strong class="text-primary">FULL WIDTH</strong></a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" trigger="hover" href="#">
+
+        <li class="dropdown" id="prueba">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="JQdropdown">
             <strong class="text-primary">DROP DOWN</strong>
           </a>
           <ul class="dropdown-menu">
@@ -26,16 +27,17 @@
             <li><a href="#">LINK 3</a></li> 
           </ul>
         </li>
+
         <li><a href="#"><strong class="text-primary">A LONG LINK TEXT</strong></a></li>
       </ul>
+  
+      <form class="navbar-form navbar-right in-line" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search Our Website...">
+        </div>
+        <button type="submit" class="btn btn-default btn-primary">Submit</button>
+      </form>
+
     </div><!-- /.navbar-collapse -->
-
-    <form class="navbar-form navbar-right" role="search">
-      <div class="form-group">
-        <input type="text" class="form-control" placeholder="Search Our Website...">
-      </div>
-      <button type="submit" class="btn btn-default btn-primary">Submit</button>
-    </form>
-
   </div><!-- /.container-fluid -->
 </nav>
